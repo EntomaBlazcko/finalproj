@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { GlobalData } from '../services/global-data';
 import { CommonModule } from '@angular/common';
 import {
@@ -17,7 +17,7 @@ import {
     CommonModule,
     IonContent, IonHeader, IonToolbar, IonTitle, IonButton,
     IonButtons, IonMenuButton, IonBackButton, IonGrid, IonRow, IonCol,
-    IonMenu, IonList, IonItem
+    IonMenu, IonList, IonItem, RouterLink
   ],
 })
 export class QuizPage implements OnInit {
